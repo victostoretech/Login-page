@@ -1,0 +1,80 @@
+<DOCTYPE html>
+<html>
+    <head><title>login page</title><style>body{
+    background-color:white;
+    text-align:center;
+    border-radius:500px;
+}
+input[type=submit]{
+    border:1px dotted blue;
+    background-color: light-blue;
+    color:blue;
+}
+p.domain{
+    font-family:cursive;
+    text-align:center ;
+    font-size:60px;
+    color:blue;
+}
+p.link{
+    text-align:center;
+    border-radius:200px;
+    background-image:linear-gradient(blue,white,blue);
+    border:1px dotted white;
+}
+p.or{
+    color:white ;
+}
+input[type=button]{
+    text-align:right;
+}
+div.login{
+    background-color:white;
+    background-image:linear-gradient(lightblue,white,blue);
+    border-radius:10px;
+}
+label[for=password]{
+    color:blue ;
+    font-family:serif;
+    font-size:15px;
+    font-weight:bolder ;
+}
+label[for=username]{
+    color:blue;
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:bolder ;
+}
+a:link{
+    text-decoration:none;
+}
+form{
+    padding:2px;
+}
+input{
+    padding:2px;
+    margin:5px;
+    border-radius:5px;
+}</style></head>
+    <body>
+        <div class="login">
+            <p class="domain">Vicnet</p>       
+            <form action="https://www.facebook.com/victorchinedu-nwachukwu">
+                <label for="username">USERNAME</label><br />
+               
+                <input type="text" name="username" placeholder="enter username" required><br />
+                <label for="password">PASSWORD</label><br />
+               
+                <input type="password" name="password" placeholder="enter min. of 8 digit pin" required><br />
+                <input type="submit" value="create new account" name="finish">
+                <input type="submit" value="sign in">
+               
+                <input type="send" placeholder="Report any issue here">            
+                <input type="submit" value="SEND" name="send">
+                <p class="or">or</p>
+                <input type="submit" value="forgot password?" name="help">
+            </form>
+           
+        </div>
+    </body>
+</html>
